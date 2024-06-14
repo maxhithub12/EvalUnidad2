@@ -1,5 +1,9 @@
 <template>
-    <form>
+<h1 class="mb-4 text-2xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-4xl dark:text-black">
+    Registro Personas</h1>
+<hr>
+<br>
+<form>
         <input
             class="w-full px-8 py-4 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white mt-5 col-span-2"
             type="text" placeholder="Nombre Completo"
@@ -40,7 +44,7 @@
         />
         <a href="/" class="col-span-2" >
             <button
-                class="mt-5 tracking-wide font-semibold bg-red-700 text-gray-100 w-full py-4 rounded-lg hover:bg-red-900 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none col-span-2">
+                class="mt-5 tracking-wide font-semibold bg-blue-700 text-gray-100 w-full py-4 rounded-lg hover:bg-red-900 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none col-span-2">
                 <svg class="w-6 h-6 -ml-2" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round">
                     <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
@@ -53,4 +57,22 @@
             </button>
         </a>
     </form>
+
+<br>
+<hr>
+
+<br>
+<br>
+<div class="col">
+    <ListarPersonas/>
+</div>
+
 </template>
+<script>
+import ListarPersonas from './ListarPersonas.vue'
+export default {
+    components: {
+        ListarPersonas
+    }
+}
+</script>
