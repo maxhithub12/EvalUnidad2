@@ -314,4 +314,27 @@
    <div class="p-4 sm:ml-64 m-8">
        <router-view />
    </div>
+
+   <div class="Footer">
+        <PieDePagina/>
+   </div>
 </template>
+
+<script>
+    import PieDePagina from './Footer.vue'
+        export default {
+            components:{
+                PieDePagina
+            }
+        }
+    
+</script>
+
+<style>
+    .Footer{
+        position: fixed;
+        bottom: 0%;
+        width: 107%;
+        padding: 90;
+    }
+</style>
