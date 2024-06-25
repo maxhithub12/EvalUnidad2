@@ -18,7 +18,11 @@ class model_user(BaseModel):
 def bienvenida():
     return "Hola 9b"
 
-@user.get("/user", response_model=List[model_user])
+@user.get("/users", tags=["Usuarios"])
+def get_users():
+    return users
+
+@user.get("/user", response_model=List[model_user], tags=["Usuarios"])
 def get_users(id: Optional[str] = Query(None, description="ID del usuario a buscar")):
     if id:
         filtered_users = [user for user in users if user.id == id]
@@ -29,14 +33,14 @@ def get_users(id: Optional[str] = Query(None, description="ID del usuario a busc
 
 
 # Método POST
-@user.post("/users", response_model=model_user)
+@user.post("/users", response_model=model_user, tags=["Usuarios"])
 def save_users(insert_users: model_user):
     users.append(insert_users)
     print(insert_users)
     return insert_users
 
 # Método PUT
-@user.put("/edit_user", response_model=model_user)
+@user.put("/edit_user", response_model=model_user, tags=["Usuarios"])
 def update_user(user_id: str, updated_user: model_user):
     for index, user in enumerate(users):
         if user.id == user_id:
@@ -45,7 +49,7 @@ def update_user(user_id: str, updated_user: model_user):
     raise HTTPException(status_code=404, detail="User not found")
 
 # Método DELETE
-@user.delete("/delete_user")
+@user.delete("/delete_user", tags=["Usuarios"])
 def delete_user(user_id: str):
     for index, user in enumerate(users):
         if user.id == user_id:
