@@ -1,20 +1,25 @@
-# EvalUnidad2
-Evaluacion Unidad 2
+# DOCUMENTACION BACKEND 
 
-Implementacion de Footer
+### Como correr el proyecto
+##### Al clonar el proyecto en tu editor favorito:
+1.- Colocarse dentro de la carpeta FrontEnd que esta en la siguiente ruta
+```sh
+cd \gimnasio.deploy
+```
+2.- Desntro de la carpeta descagar las dependencias necesarias con:
 
-1.
-![img1](https://github.com/maxhithub12/EvalUnidad2/assets/111249522/388f4769-ab50-48c8-b270-ff018ef84dda)
-2.
-![img2](https://github.com/maxhithub12/EvalUnidad2/assets/111249522/1df080e6-2881-4cbf-a106-2515a188be1f)
-3. Componente creado
-![Captura de pantalla 2024-06-13 200722](https://github.com/maxhithub12/EvalUnidad2/assets/111249522/6431eadd-a3c1-49c9-a816-61984f687b4c)
-4. Implementado en el menu
-![Captura de pantalla 2024-06-13 200800](https://github.com/maxhithub12/EvalUnidad2/assets/111249522/62c1b4f3-0d9a-4c9e-98ab-8bfc04e7183f)
+```sh
+pip install -r requirements.txt
+```
+2.- Correr el proyecto con el comando:
+
+```sh
+uvicorn app:app --reload
+```
+&nbsp;
+&nbsp;
+
+## Descripcion del proyecto 
+<p align="justify"> El presente repositorio contiene el código fuente del backend encargado de la construcción y mantenimiento del API para el sitio web del gimnasio. Este API es fundamental para gestionar y proporcionar datos a las diferentes interfaces del sitio, como la gestión de usuarios, administración de membresías, programación de clases, y reservas de sesiones.</p>
 
 
-Modulos de Membresia
-1. Membresias
-![img3](https://github.com/maxhithub12/EvalUnidad2/assets/111249522/d8c51094-4382-4279-8812-1ada3bc0abd3)
-2. Miembros
-![mig5](https://github.com/maxhithub12/EvalUnidad2/assets/111249522/6e2f91f3-8444-46fc-9a06-a7a3cf56410b)
