@@ -64,7 +64,7 @@ Visual Studio Code (también llamado VS Code) es un editor de código fuente des
 Django es un framework web de alto nivel escrito en Python que permite el desarrollo rápido y la construcción de aplicaciones web seguras, escalables y mantenibles. Fue diseñado para ayudar a los desarrolladores a crear sitios web complejos con facilidad y en menos tiempo, promoviendo un código limpio y pragmático.
 </p>
 
-https://th.bing.com/th/id/R.fa44c30877192e225ccaf7cd3413f309?rik=%2fz11sj%2bQRCmmkA&riu=http%3a%2f%2fskytechgeek.com%2fwp-content%2fuploads%2f2019%2f07%2fdjango.jpg&ehk=932byxCivSeKJ%2fNv9FSdIDdGtsbj7FYAbC88O4VjG2s%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1
+![enter image description here](https://th.bing.com/th/id/R.fa44c30877192e225ccaf7cd3413f309?rik=%2fz11sj%2bQRCmmkA&riu=http%3a%2f%2fskytechgeek.com%2fwp-content%2fuploads%2f2019%2f07%2fdjango.jpg&ehk=932byxCivSeKJ%2fNv9FSdIDdGtsbj7FYAbC88O4VjG2s%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1)
 
 #### Uso dado
 <p align= "justify">
