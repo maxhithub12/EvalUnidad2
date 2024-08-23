@@ -8,6 +8,14 @@
 ## 9B
 # DOCUMENTACION BACKEND 
 
+&nbsp;
+&nbsp;
+|  Logo de sitio web  |
+| :------------: | 
+|  bulls logo.png | | 
+
+&nbsp;
+
 ### Como correr el proyecto
 ##### Al clonar el proyecto en tu editor favorito:
 1.- Colocarse dentro de la carpeta FrontEnd que esta en la siguiente ruta
@@ -56,10 +64,23 @@ Visual Studio Code (también llamado VS Code) es un editor de código fuente des
 Django es un framework web de alto nivel escrito en Python que permite el desarrollo rápido y la construcción de aplicaciones web seguras, escalables y mantenibles. Fue diseñado para ayudar a los desarrolladores a crear sitios web complejos con facilidad y en menos tiempo, promoviendo un código limpio y pragmático.
 </p>
 
-### Django
+https://th.bing.com/th/id/R.fa44c30877192e225ccaf7cd3413f309?rik=%2fz11sj%2bQRCmmkA&riu=http%3a%2f%2fskytechgeek.com%2fwp-content%2fuploads%2f2019%2f07%2fdjango.jpg&ehk=932byxCivSeKJ%2fNv9FSdIDdGtsbj7FYAbC88O4VjG2s%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1
+
+#### Uso dado
+<p align= "justify">
+  Ensre framework se utilizo para desarrollar una API para el sitio web, Django, junto con Django REST Framework (DRF), fue la herramienta principal que se ytilizo para estructurar y gestionar tanto la lógica de negocio como las interacciones con la base de datos.
+</p>
+
+### FastAPI
 
 
 <p align="justify">
+FastAPI es un framework web que permite construir APIs robustas y rápidas utilizando Python. Está diseñado para facilitar el desarrollo de servicios web mediante la implementación de buenas prácticas de programación como la validación automática de datos, la generación de documentación y el uso de anotaciones de tipo.
+</p>
 
-Un framework es un conjunto de herramientas y bibliotecas que proporciona una estructura predefinida para desarrollar aplicaciones de software. Actúa como una base sobre la cual los desarrolladores pueden construir aplicaciones, ya que facilita el desarrollo al ofrecer componentes reutilizables, patrones de diseño y una arquitectura coherente.
+https://velog.velcdn.com/images/cho876/post/435f7c0c-9fda-4a67-aecc-a9633f5ffff4/image.png
+
+#### Uso dado
+<p align= "justify">
+  FastAPI se utilizo en el proyecto del gimnasio para construir el backend, que es la parte del sistema que gestiona toda la lógica de la aplicación, la comunicación con la base de datos y la respuesta a las solicitudes de los usuarios que interactúan con la web o la app del gimnasio. 
 </p>
