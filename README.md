@@ -66,7 +66,7 @@ Django es un framework web de alto nivel escrito en Python que permite el desarr
 
 ![enter image description here](https://th.bing.com/th/id/R.fa44c30877192e225ccaf7cd3413f309?rik=%2fz11sj%2bQRCmmkA&riu=http%3a%2f%2fskytechgeek.com%2fwp-content%2fuploads%2f2019%2f07%2fdjango.jpg&ehk=932byxCivSeKJ%2fNv9FSdIDdGtsbj7FYAbC88O4VjG2s%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1)
 
-#### Uso dado
+#### Uso dado:
 <p align= "justify">
   Ensre framework se utilizo para desarrollar una API para el sitio web, Django, junto con Django REST Framework (DRF), fue la herramienta principal que se ytilizo para estructurar y gestionar tanto la lógica de negocio como las interacciones con la base de datos.
 </p>
@@ -78,9 +78,16 @@ Django es un framework web de alto nivel escrito en Python que permite el desarr
 FastAPI es un framework web que permite construir APIs robustas y rápidas utilizando Python. Está diseñado para facilitar el desarrollo de servicios web mediante la implementación de buenas prácticas de programación como la validación automática de datos, la generación de documentación y el uso de anotaciones de tipo.
 </p>
 
-https://velog.velcdn.com/images/cho876/post/435f7c0c-9fda-4a67-aecc-a9633f5ffff4/image.png
+![enter image description here](https://velog.velcdn.com/images/cho876/post/435f7c0c-9fda-4a67-aecc-a9633f5ffff4/image.png)
 
-#### Uso dado
+#### Uso dado:
 <p align= "justify">
   FastAPI se utilizo en el proyecto del gimnasio para construir el backend, que es la parte del sistema que gestiona toda la lógica de la aplicación, la comunicación con la base de datos y la respuesta a las solicitudes de los usuarios que interactúan con la web o la app del gimnasio. 
 </p>
+
+## Conclusion 
+<p align= "justify">
+  Al concluir el desarrollo de la API para un sitio web de gimnasio utilizando Django y Django REST Framework, se logró tener un sitio escalable que facilita la gestión integral de las operaciones del gimnasio. Este proyecto permitió estructurar una solución que abarca desde la gestión de usuarios y clientes hasta el control de reservas de clases, manejo de entrenadores y seguimiento de pagos, todo mediante una API eficiente y segura.
+</p>
+
+[![Pie-de-Practica.jpg](https://i.postimg.cc/MKKZ2nrV/Pie-de-Practica.jpg)](https://postimg.cc/WtCc01V1)
